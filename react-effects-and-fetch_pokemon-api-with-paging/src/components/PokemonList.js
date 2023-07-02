@@ -21,7 +21,7 @@ export default function PokemonList() {
   }, [currentpage]);
 
   function nextPage() {
-    setCurrentpage((prevPage) => prevPage + 1);
+    setCurrentpage((prevPage) => prevPage + 2);
   }
   function prevPage() {
     setCurrentpage((prevPage) => prevPage - 1);
